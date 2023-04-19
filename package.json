@@ -1,7 +1,11 @@
 {
-  "name": "storage-manager",
+  "name": "trenchevski-storage-manager",
   "version": "1.0.0",
-  "scripts": {},
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "@types/chrome": "^0.0.233"
   }

@@ -15,7 +15,7 @@ npm install --save storage-manager
 
 # API Documentation
 
-Both LocalStorageManager and ChromeStorageManager share the same API, which consists of the following methods:
+Both LocalStorageManager and ChromeStorageManager share the same API, which consists of the following methods (usage of Promises only for ChromeStorageManager):
 
 - `setItem<T>(key: string, value: T): Promise<void>`
 - `getItem<T>(key: string): Promise<T | undefined>`

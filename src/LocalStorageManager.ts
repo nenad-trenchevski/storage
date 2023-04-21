@@ -3,7 +3,7 @@ import { ILocalStorageManager, StorageItems } from "./ILocalStorageManager";
 /**
  * A service class for managing data in the browser's local storage.
  */
-export default class LocalStorageManager implements ILocalStorageManager {
+export class LocalStorageManager implements ILocalStorageManager {
   public setItem<T>(key: string, value: T): void {
     localStorage.setItem(key, JSON.stringify(value));
   }
